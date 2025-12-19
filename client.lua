@@ -246,3 +246,8 @@ end)
 exports("IsGroupLeader", function()
     return isGroupLeader
 end)
+
+-- Export to open group menu
+exports("OpenGroupMenu", function()
+    openGroupMenu()
+end)
